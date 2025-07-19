@@ -1,5 +1,11 @@
 # coverage
 
+## About
+
+[cargo-llvm-cov](https://github.com/taiki-e/cargo-llvm-cov) を使ったカバレッジ可視化検証リポジトリです。
+
+## set up
+
 ```
 cargo llvm-cov
 ```
