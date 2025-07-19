@@ -17,3 +17,11 @@ Proceed? [Y/n]
 以下のような出力を得られれば成功です。
 
 <img width="500" src="img/coverage-capture.png">
+
+### その他
+
+- HTMLで出力する
+
+```
+cargo llvm-cov --open
+```
