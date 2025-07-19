@@ -1,0 +1,13 @@
+### slack webhook urlテスト用
+# Content-Type: application/jsonの下は1行空けること
+
+POST https://hooks.slack.com/services/<your_team_id><token_1>/<token_2>
+Content-Type: application/json
+
+{
+  "text": "Hello, world!"
+}
+
+### メッセージのカスタマイズ
+# "username": "new-bot-name"
+# "icon_url": "https://slack.com/img/icons/app-57.png"
